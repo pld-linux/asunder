@@ -7,7 +7,7 @@ Summary:	A graphical Audio CD ripper and encoder
 Summary(pl.UTF-8):	Graficzny ripper płyt CD Audio
 Name:		asunder
 Version:	0.8.1
-Release:	0.1
+Release:	1
 License:	GPL v2
 Group:		X11/Applications/Sound
 Source0:	http://littlesvr.ca/asunder/releases/%{name}-%{version}.tar.gz
@@ -18,7 +18,7 @@ BuildRequires:	gettext-devel
 BuildRequires:	gtk+2-devel >= 2:2.4.0
 BuildRequires:	libcddb-devel >= 0.9.5
 BuildRequires:	pkgconfig
-Requires:	cdparanoia
+Requires:	cdparanoia-III
 Requires:	gtk+2 >= 2:2.4.0
 Requires:	libcddb >= 0.9.5
 Suggests:	flac
