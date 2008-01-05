@@ -15,9 +15,11 @@ Source0:	http://littlesvr.ca/asunder/releases/%{name}-%{version}.tar.gz
 URL:		http://littlesvr.ca/asunder/
 BuildRequires:	desktop-file-utils
 BuildRequires:	gettext-devel
-BuildRequires:	gtk+2-devel >= 2:2.4
+BuildRequires:	gtk+2-devel >= 2:2.4.0
 BuildRequires:	libcddb-devel >= 0.9.5
+BuildRequires:	pkgconfig
 Requires:	cdparanoia
+Requires:	gtk+2 >= 2:2.4.0
 Requires:	libcddb >= 0.9.5
 Suggests:	flac
 Suggests:	lame
