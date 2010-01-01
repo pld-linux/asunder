@@ -19,7 +19,7 @@ Requires:	libcddb >= 0.9.5
 Suggests:	flac
 Suggests:	lame
 Suggests:	vorbis-tools
-Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 It allows to save tracks from an Audio CD as WAV, MP3, Ogg, and/or
