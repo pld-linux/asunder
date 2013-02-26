@@ -1,12 +1,12 @@
 Summary:	A graphical Audio CD ripper and encoder
 Summary(pl.UTF-8):	Graficzny ripper płyt CD Audio
 Name:		asunder
-Version:	1.0
+Version:	2.2
 Release:	1
 License:	GPL v2
 Group:		X11/Applications/Sound
 Source0:	http://littlesvr.ca/asunder/releases/%{name}-%{version}.tar.bz2
-# Source0-md5:	f4f9ac6a1d3120b7a75823936b319b53
+# Source0-md5:	4996860f552879fd8abdc87d1c6c7530
 URL:		http://littlesvr.ca/asunder/
 BuildRequires:	desktop-file-utils
 BuildRequires:	gettext-devel
@@ -22,8 +22,9 @@ Suggests:	vorbis-tools
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-It allows to save tracks from an Audio CD as WAV, MP3, Ogg, and/or
-FLAC.
+Asunder is a graphical Audio CD ripper and encoder for Linux. You can
+use it to save tracks from an Audio CD as any of WAV, MP3, OGG, FLAC,
+WavPack, Musepack, AAC, and Monkey's Audio files.
 
 %description -l pl.UTF-8
 Ten program pozwala zapisywać ścieżki z płyt CD Audio jako pliki WAV,
