@@ -2,7 +2,7 @@ Summary:	A graphical Audio CD ripper and encoder
 Summary(pl.UTF-8):	Graficzny ripper płyt CD Audio
 Name:		asunder
 Version:	2.2
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		X11/Applications/Sound
 Source0:	http://littlesvr.ca/asunder/releases/%{name}-%{version}.tar.bz2
@@ -42,6 +42,9 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
+
+%{__mv} $RPM_BUILD_ROOT%{_localedir}/bs{_BA,}
+%{__mv} $RPM_BUILD_ROOT%{_localedir}/ur{_PK,}
 
 %find_lang %{name}
 
