@@ -8,7 +8,7 @@ Group:		X11/Applications/Sound
 Source0:	http://littlesvr.ca/asunder/releases/%{name}-%{version}.tar.bz2
 # Source0-md5:	4996860f552879fd8abdc87d1c6c7530
 URL:		http://littlesvr.ca/asunder/
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gtk+2-devel >= 2:2.4.0
 BuildRequires:	intltool
 BuildRequires:	libcddb-devel >= 0.9.5
